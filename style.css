@@ -4,7 +4,7 @@
 }
 
 body {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
@@ -19,6 +19,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
   height: 50px;
   z-index: 999;
   padding: 0;
@@ -599,7 +600,7 @@ footer h2 {
     top: 0;
     height: 50px;
     z-index: 999;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     overflow: hidden;
     background-color: #d3d3d3ad;
   }
@@ -835,8 +836,8 @@ footer h2 {
   }
 
   .about-images {
-    width: 1000px;
-    height: 200px;
+    /* width: 1000px; */
+    /* height: 200px; */
     margin: 0 auto;
     display: grid;
     grid-gap: 20px;
