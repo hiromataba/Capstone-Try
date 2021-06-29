@@ -4,7 +4,7 @@
 }
 
 body {
-  padding: 10px;
+  padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
@@ -19,7 +19,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
+  /* left: 0; */
   height: 50px;
   z-index: 999;
   padding: 0;
@@ -558,7 +558,7 @@ footer h2 {
 }
 
 .footer-bottom {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -576,7 +576,6 @@ footer h2 {
 }
 
 .footer-bottom p {
-  width: 100%;
   color: #414246;
   font-size: 14px;
   margin: 0 10px;
@@ -836,8 +835,6 @@ footer h2 {
   }
 
   .about-images {
-    /* width: 1000px; */
-    /* height: 200px; */
     margin: 0 auto;
     display: grid;
     grid-gap: 20px;
