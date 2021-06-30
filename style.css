@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100;1,300&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -19,7 +20,6 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  /* left: 0; */
   height: 50px;
   z-index: 999;
   padding: 0;
@@ -56,8 +56,7 @@ header {
 .menu-links {
   display: none;
   position: fixed;
-  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)),
-    url('./img/img.jpg');
+  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)), url('./img/img.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,11 +100,6 @@ header {
 .menu-links a {
   color: #d3d3d3;
   font-size: 25px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: #d3d3d3;
 }
 
 .home-section {
@@ -183,8 +177,7 @@ header {
   justify-content: center;
   padding: 20px;
   flex-direction: column;
-  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)),
-    url('./img/bg1.jpeg');
+  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)), url('./img/bg1.jpeg');
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,14 +277,11 @@ header {
 }
 
 .feature-title-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 40px;
   height: 3px;
   margin-top: -10px;
-  margin-bottom: 12px;
   border-bottom: 1px solid #ec5242;
+  margin-bottom: 50px;
 }
 
 .feature-article {
@@ -368,6 +358,18 @@ header {
 .show-more-btn i {
   color: #ec5242;
   margin-left: 10px;
+}
+
+footer {
+  background-color: #414246;
+  height: 150px;
+  text-align: center;
+}
+
+footer h2 {
+  color: #d3d3d3;
+  padding-top: 10px;
+  font-size: 22px;
 }
 
 /* About page mobile */
@@ -489,6 +491,7 @@ header {
   color: #272a31;
   margin-top: 30px;
 }
+
 .about-middle-page-wrapper p {
   margin-top: 30px;
   color: #3b3e45;
@@ -502,7 +505,6 @@ header {
   justify-content: center;
   flex-direction: column;
   width: 85%;
-
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 50px;
@@ -526,39 +528,12 @@ header {
   height: 30%;
 }
 
-footer {
-  background-color: #414246;
-  height: 150px;
-  text-align: center;
-}
-
-footer h2 {
+.nav-links li a {
+  text-decoration: none;
   color: #d3d3d3;
-  padding-top: 10px;
-  font-size: 22px;
-}
-
-.footer-refs {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #414246;
-  list-style: none;
-  padding: 10px;
-  line-height: 40px;
-}
-
-.footer-refs li a img {
-  width: 60px;
-}
-
-.footer-refs li a {
-  margin-right: 10px;
 }
 
 .footer-bottom {
-  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -581,6 +556,25 @@ footer h2 {
   margin: 0 10px;
 }
 
+.footer-refs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #414246;
+  list-style: none;
+  padding: 10px;
+  line-height: 40px;
+}
+
+.footer-refs li a img {
+  width: 60px;
+}
+
+.footer-refs li a {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 321px) {
   .main-program-li {
     flex-direction: column;
@@ -599,7 +593,6 @@ footer h2 {
     top: 0;
     height: 50px;
     z-index: 999;
-    /* padding: 10px 0; */
     overflow: hidden;
     background-color: #d3d3d3ad;
   }
@@ -626,15 +619,6 @@ footer h2 {
 
   .logo img {
     width: 100%;
-  }
-
-  .nav-links {
-    display: flex;
-  }
-
-  .nav-links li a {
-    text-decoration: none;
-    color: #3b3e45;
   }
 
   .home-wrapper {
@@ -764,19 +748,6 @@ footer h2 {
     display: none;
   }
 
-  .footer-bottom {
-    justify-content: space-around;
-    width: 100%;
-  }
-
-  .footer-bottom p {
-    font-size: 22px;
-  }
-
-  .footer-refs li a img {
-    width: 90px;
-  }
-
   /* Add About Page */
 
   .about-wrapper {
@@ -849,7 +820,6 @@ footer h2 {
 
   .about-details h2 {
     font-size: 50px;
-    /* margin-bottom: 60px; */
   }
 
   .about-details p {
@@ -859,5 +829,27 @@ footer h2 {
 
   .about-details-img {
     width: 40%;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #3b3e45;
+  }
+
+  .footer-bottom {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer-bottom p {
+    font-size: 22px;
+  }
+
+  .footer-refs li a img {
+    width: 90px;
   }
 }
