@@ -90,6 +90,7 @@ header {
 }
 
 .close-menu-btn button {
+  padding-top: 35px;
   transition: all 0.6s ease-in-out;
   background-color: transparent;
   outline: none;
@@ -238,6 +239,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .join-global-btn button {
@@ -597,6 +599,14 @@ footer h2 {
     background-color: #d3d3d3ad;
   }
 
+  .nav-links {
+    display: flex;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
   .close-menu-btn {
     display: none;
   }
@@ -829,10 +839,6 @@ footer h2 {
 
   .about-details-img {
     width: 40%;
-  }
-
-  .nav-links {
-    display: flex;
   }
 
   .nav-links li a {
