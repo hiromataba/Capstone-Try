@@ -5,7 +5,7 @@
 
 ## live demo
 
-- [live demo](https://hiromataba.github.io/Html-and-Css-Capstone-Project/)
+- [live demo](https://hiromataba.github.io/Capstone-Consul/)
 
 ## Here is the video link:
 
