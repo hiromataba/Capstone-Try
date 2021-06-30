@@ -83,7 +83,7 @@ header {
   transition: all 0.6s ease-in-out;
 }
 
-.close-menu-btn p {
+.close-menu-btn span {
   color: white;
   pointer-events: none;
   font-size: 35px;
