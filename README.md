@@ -1,13 +1,16 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# CONSUL
-
- 
- -This is the  page view:
-![Honestly](https://user-images.githubusercontent.com/57562869/123866309-2c9a5680-d92d-11eb-951b-a59b46b3d985.png)
+# CONSUL 
 
 
 ## live demo
-- [live demo](https://moise10r.github.io/Capstone_Project_Module_One)
+
+- [live demo](https://hiromataba.github.io/Html-and-Css-Capstone-Project/)
+
+## Here is the video link:
+
+- [loom video](https://www.loom.com/share/42a137a9904141cba20e3716cb9d8d5a)
+
 ## Materials required for validation
 
 - follow this link :
@@ -39,6 +42,9 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
+ # Mobile Preview:
+
+![capstone](https://user-images.githubusercontent.com/75126481/123948021-4ecdbc00-d9a1-11eb-86f4-8c28a21fff46.png)
 
 ## Show your support
 
